@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Import Report</title>
+  <style>
+    .logo{
+      background: #FFF;
+      height: 120px;
+      text-align: center;
+      display: table;
+      width: 100%;
+    }
+    .logo .logo_img{
+      display: table-cell;
+      margin: 0 auto;
+      vertical-align: middle;
+    }
+    .logo img{
+      max-height: 80px;
+    }
+    .status{
+      height: 250px;
+      font: 600 26px/26px Arial;
+      color: #555555;
+      background: #FFF;
+      margin: 20px 0 0 0;
+      padding: 20px 0 20px 0;
+    }
+    .status .bg{
+      background: url({module_folder}views/img/sprite_import_mail.png) -144px 0 no-repeat;
+      display: block;
+      margin: 0 auto;
+      width: 141px;
+      height: 125px;
+      margin-bottom: 30px;
+    }
+    .status .message{
+      text-align: center;
+    }
+    .status.error .bg{
+      background-position: -7px 0px;
+    }
+
+    .status.error .error_message{
+      font: normal 19px/19px Arial;
+      text-align: center;
+      margin: 20px 0 0 0;
+    }
+    .status.error .error_message span{
+      color: #eb6a5e;
+    }
+    .status.error{
+      display: none;
+    }
+    .status{
+      display: none;
+    }
+    .status.success
+    ,.status.error
+    {
+      display: block;
+    }
+    .detailed{
+      font: normal 19px/19px Arial;
+      text-align: center;
+      color: #555555;
+      background: #FFF;
+    }
+    .info {
+      display: inline-block;
+      width: 100%;
+      vertical-align: top;
+      padding: 50px 0 0 0px;
+      background: #FFF;
+    }
+
+    .info .settings
+    ,.info .start_time
+    ,.info .imported_products
+    ,.info .skipped_products
+    ,.info  .copied_images
+    ,.info  .skipped_images
+    {
+      display: inline-block;
+      width: 49%;
+    }
+
+    .info  .settings .icon
+    ,.info  .products_duration .icon
+    ,.info  .imported_products .icon
+    ,.info  .images_duration .icon
+    ,.info  .copied_images .icon
+    ,.info  .thumbnails .icon
+    ,.info  .start_time .icon
+    ,.info  .skipped_products .icon
+    ,.info  .skipped_images .icon
+    {
+      background: url({module_folder}views/img/sprite_import_mail.png) -121px -133px no-repeat;
+      display: block;
+      width: 20px;
+      height: 50px;
+      float: left;
+      margin: 0 10px 0 0;
+    }
+
+    .info  .products_duration .icon{
+      background-position: -168px -133px;
+    }
+
+    .info  .imported_products .icon{
+      background-position: -213px -133px;
+    }
+
+    .info  .images_duration .icon{
+      background-position: -191px -133px;
+    }
+
+    .info  .copied_images .icon{
+      background-position: -278px -133px;
+    }
+
+    .info  .thumbnails .icon{
+      background-position: -256px -133px;
+    }
+
+    .info  .start_time .icon{
+      background-position: -145px -133px;
+    }
+
+    .info  .skipped_products .icon{
+      background-position: -235px -133px;
+    }
+
+    .info  .skipped_images .icon{
+      background-position: -300px -133px;
+    }
+
+    .info  .products_duration
+    ,.info  .images_duration
+    ,.info  .copied_images
+    ,.info  .thumbnails
+    ,.info  .settings
+    ,.info  .imported_products
+    ,.info  .start_time
+    ,.info  .skipped_products
+    ,.info  .copied_images
+    ,.info  .skipped_images
+    {
+      margin: 24px 0 0 0;
+      padding: 0 0 24px 0;
+      vertical-align: top;
+    }
+
+    .info .name{
+      font: normal 18px/18px Arial;
+      color: #555555;
+      /*margin: 8px 0 0 0;*/
+    }
+    .info .description{
+      font: normal 15px/15px Arial;
+      color: #999999;
+      margin: 10px 0 0 0;
+    }
+
+    .info  .skipped_images{
+      border: none;
+    }
+
+    .info  .skipped_products .name
+    ,.info  .skipped_images .name
+    {
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .info  .skipped_products .name span
+    ,.info  .skipped_images .name span
+    {
+      font: normal 15px/15px Arial;
+      color: #999999;
+    }
+
+    .info  .skipped_products a
+    ,.info  .skipped_images a
+    {
+      color: #00aff0;
+      font: normal 15px/15px Arial;
+      text-decoration: none;
+      margin: 2px 0 0 14px;
+      display: inline-block;
+      vertical-align: top;
+      display: none;
+    }
+
+    .info  .skipped_products a.show_error
+    ,.info  .skipped_images a.show_error
+    {
+      display: inline-block;
+    }
+
+    .info  .skipped_products a span
+    ,.info  .skipped_images a span
+    {
+      background: url({module_folder}views/img/sprite_import_mail.png) -318px -133px no-repeat;
+      width: 21px;
+      height: 16px;
+      display: inline-block;
+      margin: 0 0 0 3px;
+      vertical-align: -4px;
+    }
+
+    .info .whole_block{
+      border-bottom: 1px solid #f3f3f3;
+    }
+
+    .info  .skipped_products .name
+    ,.info  .skipped_images .name
+    {
+      margin: 0;
+    }
+
+    .footer{
+      background: #FFF;
+      margin: 6px 0 0 0;
+      padding: 50px 0 50px 0;
+    }
+    .footer .logo{
+      background: url({module_folder}views/img/sprite_import_mail.png) -9px -126px no-repeat;
+      width: 110px;
+      height: 40px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+
+    .footer div{
+      text-align: center;
+      color: #999999;
+      font: normal 14px/14px Arial;
+      margin: 0 0 12px 0;
+    }
+
+    .footer div span{
+      color: #00aff0;
+    }
+  </style>
+</head>
+<body style="-moz-box-sizing:content-box;-ms-text-size-adjust:100%;-webkit-box-sizing:content-box;-webkit-text-size-adjust:100%;Margin:0;box-sizing:content-box;margin:0;min-width:100%;padding:0;text-align:left;width:100%!important">
+<div style="display:none !important;
+           visibility:hidden;
+           mso-hide:all;
+           font-size:1px;
+           color:#ffffff;
+           line-height:1px;
+           max-height:0px;
+           max-width:0px;
+           opacity:0;
+           overflow:hidden;">{preheader}</div>
+<div style="margin: 10px 2px 0px 2px;">
+  <div style="
+      width: 600px;
+      margin: 0 auto;
+      background-color: #f9f9f9;
+      position: relative;">
+    <div class="logo">
+      <div class="logo_img">
+        <img src="{shop_logo}" />
+      </div>
+    </div>
+    <div class="status {success_class}">
+      <div class="bg"></div>
+      <div class="message">
+        Import process completed!
+      </div>
+    </div>
+
+    <div class="status {error_class}">
+      <div class="bg"></div>
+      <div class="message">
+        Import process failed!
+      </div>
+      <div class="error_message">
+        <span>Error:</span>
+        {error_message}
+      </div>
+    </div>
+
+    <div class="detailed">
+      Detailed information:
+    </div>
+    <div class="info">
+        <div class="whole_block">
+          <div class="settings">
+            <div class="icon"></div>
+            <div>
+              <div class="name">Import settings:</div>
+              <div class="description">{settings_name}</div>
+            </div>
+          </div>
+
+          <div class="start_time">
+            <div class="icon"></div>
+            <div>
+              <div class="name">Start time:</div>
+              <div class="description">{start_time}</div>
+            </div>
+          </div>
+        </div>
+
+      <div class="products_duration">
+        <div class="icon"></div>
+        <div>
+          <div class="name">Products import duration:</div>
+          <div class="description">{products_duration}</div>
+        </div>
+      </div>
+
+      <div class="whole_block">
+        <div class="imported_products">
+          <div class="icon"></div>
+          <div>
+            <div class="name">Total products imported:</div>
+            <div class="description">{imported_products}</div>
+          </div>
+        </div>
+
+        <div class="skipped_products">
+          <div class="icon"></div>
+          <div>
+            <div class="name">Skipped: <span>{products_skipped}</span></div>
+            <a class="{skipped_products}" href="{module_folder}error/{settings_id}error_logs.csv">Open log <span></span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="images_duration">
+        <div class="icon"></div>
+        <div>
+          <div class="name">Images import duration:</div>
+          <div class="description">{images_duration}</div>
+        </div>
+      </div>
+
+      <div class="whole_block">
+        <div class="copied_images">
+          <div class="icon"></div>
+          <div>
+            <div class="name">Copied images:</div>
+            <div class="description">{copied_images}</div>
+          </div>
+        </div>
+
+        <div class="skipped_images">
+          <div class="icon"></div>
+          <div>
+            <div class="name">Skipped: <span>{images_skipped}</span></div>
+            <a class="{skipped_images}" href="{module_folder}error/{settings_id}image_logs.csv">Open log <span></span></a>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="thumbnails">
+          <div class="icon"></div>
+          <div>
+            <div class="name">Thumbnails generated:</div>
+            <div class="description">{thumbnails}</div>
+          </div>
+        </div>
+
+    </div>
+    <div class="footer">
+      <div class="logo"></div>
+      <div class="powered">
+        <div>Powered by <span>MyPrestaModules.com</span></div>
+        <div>Product Catalog (CSV, Excel) Import notification email</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

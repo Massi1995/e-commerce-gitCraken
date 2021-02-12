@@ -1,0 +1,47 @@
+<?php return array (
+  'parameters' => 
+  /*array (
+    'database_host' => '127.0.0.1',
+    'database_port' => '',
+    'database_name' => 'bdd-vap',
+    'database_user' => 'root',
+    'database_password' => '',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'BmyNsbWZFLEos0fo7qqw1B9PCRecEOPHsGy6PFpCiZYpHQTmi5RXFApc',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2020-11-23',
+    'locale' => 'fr-FR',
+    'cookie_key' => '67HWcupkmy1OgEirOYR4sONp39Aiqu1BdvmyC9wLdJTPS0bYzcpJoOZV',
+    'cookie_iv' => 'G83u0uAG',
+    'new_cookie_key' => 'def000006447ad2190e29e0458357796b5ad62585d341625fbdbd1aaf4c671f325d6d5ac55393e4e0608f4f2313dc5ebd6e4627d444576ce231002a0c92ba4519874d8e8',
+  ),*/
+      array (
+          'database_host' => 'site-web-mysqldbserver.mysql.database.azure.com',
+          'database_port' => '3306',
+          'database_name' => 'bdd-vap',
+          'database_user' => 'mysqldbuser@site-web-mysqldbserver',
+          'database_password' => 'Dev123456789',
+          'database_prefix' => 'ps_',
+          'database_engine' => 'InnoDB',
+          'mailer_transport' => 'smtp',
+          'mailer_host' => '127.0.0.1',
+          'mailer_user' => NULL,
+          'mailer_password' => NULL,
+          'secret' => 'BmyNsbWZFLEos0fo7qqw1B9PCRecEOPHsGy6PFpCiZYpHQTmi5RXFApc',
+          'ps_caching' => 'CacheMemcache',
+          'ps_cache_enable' => false,
+          'ps_creation_date' => '2020-11-23',
+          'locale' => 'fr-FR',
+          'cookie_key' => '67HWcupkmy1OgEirOYR4sONp39Aiqu1BdvmyC9wLdJTPS0bYzcpJoOZV',
+          'cookie_iv' => 'G83u0uAG',
+          'new_cookie_key' => 'def000006447ad2190e29e0458357796b5ad62585d341625fbdbd1aaf4c671f325d6d5ac55393e4e0608f4f2313dc5ebd6e4627d444576ce231002a0c92ba4519874d8e8',
+      ),
+);
+
+//$con=mysqli_init(); mysqli_ssl_set($con, NULL, NULL, {ca-cert filename}, NULL, NULL); mysqli_real_connect($con, "site-web-mysqldbserver.mysql.database.azure.com", "mysqldbuser@site-web-mysqldbserver", {your_password}, {your_database}, 3306);

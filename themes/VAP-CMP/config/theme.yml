@@ -1,0 +1,6 @@
+parent: classic
+name: VAP-CMP
+display_name: Thème du site VAP de CMP, créé comme thème enfant du thème Classic de Prestashop. 
+version: 1.0.0
+assets:
+ use_parent_assets: true

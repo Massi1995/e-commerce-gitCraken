@@ -1,0 +1,165 @@
+#content {
+  margin: 0px auto;
+  position: relative;
+  /*width: 1130px;*/
+}
+
+div.importError{
+  max-width: 500px;
+  position: absolute;
+}
+
+div.importError:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 99%;
+  left: 10px;
+  width: 0;
+  height: 0;
+  border-color: #fadbd8 transparent transparent transparent;
+  border-style: solid;
+  border-width: 8px;
+}
+
+div.importError:before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 99%;
+  left: 9px;
+  width: 0;
+  height: 0;
+  border-color: #e74c3c transparent transparent transparent;
+  border-style: solid;
+  border-width: 9px;
+}
+
+div.importError.right:after{
+  right: 9px;
+  left: auto;
+}
+
+div.importNotice{
+  max-width: 500px;
+  position: absolute;
+}
+
+div.importError div.message{
+  background-color: #fadbd8;
+  padding: 8px 9px 7px 9px;
+  border-radius: 3px;
+  color: #e74c3c;
+  font: 500 12px/12px Open Sans;
+  border: 1px solid #e74c3c;
+}
+
+div.importNotice div.message{
+  background-color: #58A42C;
+  padding: 13px 14px 12px 14px;
+  border-radius: 7px;
+  color: #FFF;
+  font: bold 15px/15px PT Sans;
+}
+
+div.importError div.message:before{
+  content: '\e90e';
+  font-family: "import-progress";
+  font-size: 13px;
+  color: #e74c3c;
+  margin: 0px 7px 0 0;
+  vertical-align: -2px;
+}
+
+div.importNotice:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 99%;
+  left: 9px;
+  width: 0;
+  height: 0;
+  border-color: #58A42C transparent transparent transparent;
+  border-style: solid;
+  border-width: 9px;
+}
+
+div.importNotice.right:after{
+  right: 9px;
+  left: auto;
+}
+
+#importErrorBox {
+  z-index: 2;
+}
+
+.edit_pass{
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+.import_error{
+  border: 2px solid red !important;
+}
+
+.import_error_tiny{
+  border: 1px solid red !important;
+}
+
+.error_page{
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.error_page .error_message{
+  font: normal 26px/26px PT Sans;
+  margin-top: 10px;
+}
+
+.error_page a{
+  text-decoration: underline;
+  font: normal 18px/18px PT Sans;
+  color: #147be0;
+}
+
+.error_page a:hover{
+  text-decoration: none;
+}
+
+.default_error{
+   width: 1024px;
+   height: 90%;
+   display: table;
+}
+
+#importReferenceBox{
+  max-width: 400px;
+  position: absolute;
+  z-index: 14;
+  display: none;
+}
+
+#importReferenceBox .message{
+  font: bold 18px/25px "Open Sans";
+  color: #f05743;
+  position: relative;
+  text-align: justify;
+}
+
+#importReferenceBox .close_reference:hover{
+  background-position: -40px -23px;
+}
+
+.reference_overflow{
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 13;
+  overflow: hidden;
+  display: none;
+}

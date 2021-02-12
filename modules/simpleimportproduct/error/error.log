@@ -1,0 +1,170 @@
+ [03-Dec-2020 10:54:30 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1926
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1929
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1932
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1935
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1926
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1929
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1932
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:54:30 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1935
+[03-Dec-2020 10:54:30 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:55:30 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:55:30 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:55:30 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:55:30 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:55:30 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:55:30 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:55:30 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:55:30 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:55:30 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1935
+[03-Dec-2020 10:55:30 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:55:44 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:55:44 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1926
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:55:44 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:55:44 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1929
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:55:44 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:55:44 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1932
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:55:44 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:55:44 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1935
+[03-Dec-2020 10:55:44 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:55:48 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:55:48 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1926
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:55:48 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:55:48 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1929
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:55:48 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:55:48 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1932
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721
+[03-Dec-2020 10:55:48 Europe/Paris] PHP Warning:  number_format() expects parameter 1 to be float, string given in C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php on line 2721
+[03-Dec-2020 10:55:48 Europe/Paris] PHP Stack trace:
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   1. {main}() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:0
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   2. importProducts->import() C:\wamp64\www\VAP-final\modules\simpleimportproduct\send.php:472
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   3. importProducts->runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:183
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   4. importProducts->_runImport() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:927
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   5. importProducts->_importProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1294
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   6. importProducts->_saveNewProduct() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1389
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   7. importProducts->_preparePrice() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:1935
+[03-Dec-2020 10:55:48 Europe/Paris] PHP   8. number_format() C:\wamp64\www\VAP-final\modules\simpleimportproduct\import.php:2721

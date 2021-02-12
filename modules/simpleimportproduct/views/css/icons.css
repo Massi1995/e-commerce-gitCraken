@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'import-progress';
+  src:  url('../fonts/import-progress.eot?3wadio');
+  src:  url('../fonts/import-progress.eot?3wadio#iefix') format('embedded-opentype'),
+    url('../fonts/import-progress.ttf?3wadio') format('truetype'),
+    url('../fonts/import-progress.woff?3wadio') format('woff'),
+    url('../fonts/import-progress.svg?3wadio#import-progress') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ip-"], [class*=" ip-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'import-progress' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ip-pause-button:before {
+  content: "\e900";
+}
+.ip-play-button-sing:before {
+  content: "\e901";
+}
+.ip-clock-with-refresh-circular-arrow:before {
+  content: "\e902";
+}
+.ip-stop:before {
+  content: "\e903";
+}
+.ip-external-link-alt-solid:before {
+  content: "\e904";
+}
+.ip-calendar-minus-regular:before {
+  content: "\e905";
+}
+.ip-calendar-check-regular:before {
+  content: "\e906";
+}
+.ip-sync-alt-solid:before {
+  content: "\e907";
+}
+.ip-long-arrow-alt-left-solid:before {
+  content: "\e908";
+}
+.ip-chevron-left-solid:before {
+  content: "\e909";
+}
+.ip-image:before {
+  content: "\e90a";
+}
+.ip-image-error:before {
+  content: "\e90b";
+}
+.ip-thumbnail:before {
+  content: "\e90c";
+}
+.ip-help-web-button:before {
+  content: "\e90d";
+}
+.ip-info-circle-solid:before {
+  content: "\e90e";
+}
+.ip-rubbish-bin-delete-button:before {
+  content: "\e90f";
+}
+.ip-check-mark:before {
+  content: "\e910";
+}
+.ip-search-solid:before {
+  content: "\e911";
+}
+.ip-chevron-down-solid:before {
+  content: "\e912";
+}
+.ip-chevron-up-solid:before {
+  content: "\e913";
+}
+.ip-arrows-alt-v-solid:before {
+  content: "\e914";
+}
+.ip-heart:before {
+  content: "\e915";
+}
+.ip-book:before {
+  content: "\e916";
+}
+.ip-facebook:before {
+  content: "\e917";
+}
+.ip-link-reply:before {
+  content: "\e918";
+}
+.ip-info:before {
+  content: "\e919";
+}
+.ip-circle-check:before {
+  content: "\e91a";
+}
+.ip-download:before {
+  content: "\e91b";
+}

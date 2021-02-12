@@ -1,0 +1,916 @@
+*INFO* 	v1.7.5.2	2020/11/30 - 15:29:12: Form data generation for cart #23 with standard submodule.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:29:12: Data to be sent to payment gateway: Array
+(
+    [signature] => 5M3wJXf4lTxWJadyw8IusnduMztXoFh+KzAmtRcGiHg=
+    [vads_action_mode] => IFRAME
+    [vads_amount] => 3480
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => PrestaShop_1.5-1.7_1.13.7/1.7.5.2/7.4.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 121 rue boulverse
+    [vads_cust_cell_phone] => 
+    [vads_cust_city] => 6666
+    [vads_cust_country] => FR
+    [vads_cust_email] => djellouli.massi@gmail.com
+    [vads_cust_first_name] => MASSI
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => DJELLOULI
+    [vads_cust_phone] => 
+    [vads_cust_zip] => 66666
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 23
+    [vads_order_info] => module_id=standard
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => CB;E-CARTEBLEUE;MAESTRO;MASTERCARD;VISA;VISA_ELECTRON
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_error_timeout] => 0
+    [vads_redirect_success_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_success_timeout] => 0
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => 6666
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => MASSI
+    [vads_ship_to_last_name] => DJELLOULI
+    [vads_ship_to_phone_num] => 
+    [vads_ship_to_street] => 121 rue boulverse
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 66666
+    [vads_shipping_amount] => 0
+    [vads_shop_name] => 
+    [vads_shop_url] => 
+    [vads_site_id] => 53820565
+    [vads_tax_amount] => 580
+    [vads_theme_config] => 3DS_LOGOS=false;
+    [vads_totalamount_vat] => 580
+    [vads_trans_date] => 20201130142912
+    [vads_trans_id] => 557523
+    [vads_url_return] => http://localhost/VAP-final/module/lyra/submit?content_only=1
+    [vads_validation_mode] => 
+    [vads_version] => V2
+    [vads_product_label0] => Affiche encadrée The best is yet to come
+    [vads_product_amount0] => 2900
+    [vads_product_qty0] => 1
+    [vads_product_ref0] => 3
+    [vads_product_type0] => FOOD_AND_GROCERY
+    [vads_product_vat0] => 20.0000
+)
+
+*INFO* 	v1.7.5.2	2020/11/30 - 15:29:24: User return to shop process starts for cart #23.
+*WARNING* 	v1.7.5.2	2020/11/30 - 15:29:24: Payment for cart #23 has been processed by client return! This means the IPN URL did not work.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:29:24: Payment accepted for cart #23. New order state is 2.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:29:24: Create order for cart #23.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:29:24: Call PaymentModule::validateOrder() PrestaShop function to create order for cart #23.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:29:33: PaymentModule::validateOrder() PrestaShop function called successfully for cart #23.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:29:33: Order #6 created successfully for cart #23.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:29:33: Save payment information for cart #23.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:29:33: Payment information with ID(s) 7 saved successfully for cart #23.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:38:15: Form data generation for cart #24 with standard submodule.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:38:16: Data to be sent to payment gateway: Array
+(
+    [signature] => cQ7PaKbPjlS0zPECKHbTKb15V5/ExWCHfDVnlf8D0cg=
+    [vads_action_mode] => IFRAME
+    [vads_amount] => 6960
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => PrestaShop_1.5-1.7_1.13.7/1.7.5.2/7.4.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 121 rue boulverse
+    [vads_cust_cell_phone] => 
+    [vads_cust_city] => 6666
+    [vads_cust_country] => FR
+    [vads_cust_email] => djellouli.massi@gmail.com
+    [vads_cust_first_name] => MASSI
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => DJELLOULI
+    [vads_cust_phone] => 
+    [vads_cust_zip] => 66666
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 24
+    [vads_order_info] => module_id=standard
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => CB;E-CARTEBLEUE;MAESTRO;MASTERCARD;VISA;VISA_ELECTRON
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_error_timeout] => 0
+    [vads_redirect_success_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_success_timeout] => 0
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => 6666
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => MASSI
+    [vads_ship_to_last_name] => DJELLOULI
+    [vads_ship_to_phone_num] => 
+    [vads_ship_to_street] => 121 rue boulverse
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 66666
+    [vads_shipping_amount] => 0
+    [vads_shop_name] => 
+    [vads_shop_url] => 
+    [vads_site_id] => 53820565
+    [vads_tax_amount] => 1160
+    [vads_theme_config] => 3DS_LOGOS=false;
+    [vads_totalamount_vat] => 1160
+    [vads_trans_date] => 20201130143815
+    [vads_trans_id] => 562958
+    [vads_url_return] => http://localhost/VAP-final/module/lyra/submit?content_only=1
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_product_label0] => Affiche encadrée The best is yet to come
+    [vads_product_amount0] => 2900
+    [vads_product_qty0] => 2
+    [vads_product_ref0] => 3
+    [vads_product_type0] => FOOD_AND_GROCERY
+    [vads_product_vat0] => 20.0000
+)
+
+*INFO* 	v1.7.5.2	2020/11/30 - 15:38:24: User return to shop process starts for cart #24.
+*WARNING* 	v1.7.5.2	2020/11/30 - 15:38:24: Payment for cart #24 has been processed by client return! This means the IPN URL did not work.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:38:24: Payment accepted for cart #24. New order state is 2.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:38:24: Create order for cart #24.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:38:25: Call PaymentModule::validateOrder() PrestaShop function to create order for cart #24.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:38:33: PaymentModule::validateOrder() PrestaShop function called successfully for cart #24.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:38:33: Order #7 created successfully for cart #24.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:38:33: Save payment information for cart #24.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:38:33: Payment information with ID(s) 9 saved successfully for cart #24.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:40:48: Form data generation for cart #25 with standard submodule.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:40:49: Data to be sent to payment gateway: Array
+(
+    [signature] => PfCG9sIArdhqRO8546wCf+aqe3W6lQxBzNDaKJmMrKE=
+    [vads_action_mode] => IFRAME
+    [vads_amount] => 1428
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => PrestaShop_1.5-1.7_1.13.7/1.7.5.2/7.4.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 121 rue boulverse
+    [vads_cust_cell_phone] => 
+    [vads_cust_city] => 6666
+    [vads_cust_country] => FR
+    [vads_cust_email] => djellouli.massi@gmail.com
+    [vads_cust_first_name] => MASSI
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => DJELLOULI
+    [vads_cust_phone] => 
+    [vads_cust_zip] => 66666
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 25
+    [vads_order_info] => module_id=standard
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => CB;E-CARTEBLEUE;MAESTRO;MASTERCARD;VISA;VISA_ELECTRON
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_error_timeout] => 0
+    [vads_redirect_success_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_success_timeout] => 0
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => 6666
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => MASSI
+    [vads_ship_to_last_name] => DJELLOULI
+    [vads_ship_to_phone_num] => 
+    [vads_ship_to_street] => 121 rue boulverse
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 66666
+    [vads_shipping_amount] => 0
+    [vads_shop_name] => 
+    [vads_shop_url] => 
+    [vads_site_id] => 53820565
+    [vads_tax_amount] => 238
+    [vads_theme_config] => 3DS_LOGOS=false;
+    [vads_totalamount_vat] => 238
+    [vads_trans_date] => 20201130144048
+    [vads_trans_id] => 564487
+    [vads_url_return] => http://localhost/VAP-final/module/lyra/submit?content_only=1
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_product_label0] => Mug The best is yet to come
+    [vads_product_amount0] => 1190
+    [vads_product_qty0] => 1
+    [vads_product_ref0] => 6
+    [vads_product_type0] => FOOD_AND_GROCERY
+    [vads_product_vat0] => 20.0000
+)
+
+*INFO* 	v1.7.5.2	2020/11/30 - 15:41:04: User return to shop process starts for cart #25.
+*WARNING* 	v1.7.5.2	2020/11/30 - 15:41:04: Payment for cart #25 has been processed by client return! This means the IPN URL did not work.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:41:04: Payment accepted for cart #25. New order state is 2.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:41:04: Create order for cart #25.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:41:04: Call PaymentModule::validateOrder() PrestaShop function to create order for cart #25.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:41:12: PaymentModule::validateOrder() PrestaShop function called successfully for cart #25.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:41:12: Order #8 created successfully for cart #25.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:41:12: Save payment information for cart #25.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:41:12: Payment information with ID(s) 11 saved successfully for cart #25.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:43:17: Form data generation for cart #26 with standard submodule.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:43:17: Data to be sent to payment gateway: Array
+(
+    [signature] => qC9zeGjTZDtwr/rk4Vc3JhIp3FqKS2tZ/6vuD4dS7Lg=
+    [vads_action_mode] => IFRAME
+    [vads_amount] => 2294
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => PrestaShop_1.5-1.7_1.13.7/1.7.5.2/7.4.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 121 rue boulverse
+    [vads_cust_cell_phone] => 
+    [vads_cust_city] => 6666
+    [vads_cust_country] => FR
+    [vads_cust_email] => djellouli.massi@gmail.com
+    [vads_cust_first_name] => MASSI
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => DJELLOULI
+    [vads_cust_phone] => 
+    [vads_cust_zip] => 66666
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 26
+    [vads_order_info] => module_id=standard
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => CB;E-CARTEBLEUE;MAESTRO;MASTERCARD;VISA;VISA_ELECTRON
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_error_timeout] => 0
+    [vads_redirect_success_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_success_timeout] => 0
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => 6666
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => MASSI
+    [vads_ship_to_last_name] => DJELLOULI
+    [vads_ship_to_phone_num] => 
+    [vads_ship_to_street] => 121 rue boulverse
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 66666
+    [vads_shipping_amount] => 0
+    [vads_shop_name] => 
+    [vads_shop_url] => 
+    [vads_site_id] => 53820565
+    [vads_tax_amount] => 382
+    [vads_theme_config] => 3DS_LOGOS=false;
+    [vads_totalamount_vat] => 382
+    [vads_trans_date] => 20201130144317
+    [vads_trans_id] => 565973
+    [vads_url_return] => http://localhost/VAP-final/module/lyra/submit?content_only=1
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_product_label0] => T shirt imprimé colibri
+    [vads_product_amount0] => 1912
+    [vads_product_qty0] => 1
+    [vads_product_ref0] => 1
+    [vads_product_type0] => FOOD_AND_GROCERY
+    [vads_product_vat0] => 20.0000
+)
+
+*INFO* 	v1.7.5.2	2020/11/30 - 15:43:46: User return to shop process starts for cart #26.
+*WARNING* 	v1.7.5.2	2020/11/30 - 15:43:46: Payment for cart #26 has been processed by client return! This means the IPN URL did not work.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:43:46: Payment accepted for cart #26. New order state is 2.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:43:46: Create order for cart #26.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:43:46: Call PaymentModule::validateOrder() PrestaShop function to create order for cart #26.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:43:54: PaymentModule::validateOrder() PrestaShop function called successfully for cart #26.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:43:54: Order #9 created successfully for cart #26.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:43:54: Save payment information for cart #26.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:43:54: Payment information with ID(s) 13 saved successfully for cart #26.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:45:40: Form data generation for cart #27 with standard submodule.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:45:40: Data to be sent to payment gateway: Array
+(
+    [signature] => In/vk873r/8Kp9FE2Oo5HT27yWLEkFlT9H87B7m+rbs=
+    [vads_action_mode] => IFRAME
+    [vads_amount] => 3446
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => PrestaShop_1.5-1.7_1.13.7/1.7.5.2/7.4.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 121 rue boulverse
+    [vads_cust_cell_phone] => 
+    [vads_cust_city] => 6666
+    [vads_cust_country] => FR
+    [vads_cust_email] => djellouli.massi@gmail.com
+    [vads_cust_first_name] => MASSI
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => DJELLOULI
+    [vads_cust_phone] => 
+    [vads_cust_zip] => 66666
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 27
+    [vads_order_info] => module_id=standard
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => CB;E-CARTEBLEUE;MAESTRO;MASTERCARD;VISA;VISA_ELECTRON
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_error_timeout] => 0
+    [vads_redirect_success_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_success_timeout] => 0
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => 6666
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => MASSI
+    [vads_ship_to_last_name] => DJELLOULI
+    [vads_ship_to_phone_num] => 
+    [vads_ship_to_street] => 121 rue boulverse
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 66666
+    [vads_shipping_amount] => 0
+    [vads_shop_name] => 
+    [vads_shop_url] => 
+    [vads_site_id] => 53820565
+    [vads_tax_amount] => 574
+    [vads_theme_config] => 3DS_LOGOS=false;
+    [vads_totalamount_vat] => 574
+    [vads_trans_date] => 20201130144540
+    [vads_trans_id] => 567401
+    [vads_url_return] => http://localhost/VAP-final/module/lyra/submit?content_only=1
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_product_label0] => Pull imprimé colibri
+    [vads_product_amount0] => 2872
+    [vads_product_qty0] => 1
+    [vads_product_ref0] => 2
+    [vads_product_type0] => FOOD_AND_GROCERY
+    [vads_product_vat0] => 20.0000
+)
+
+*INFO* 	v1.7.5.2	2020/11/30 - 15:45:56: User return to shop process starts for cart #27.
+*WARNING* 	v1.7.5.2	2020/11/30 - 15:45:56: Payment for cart #27 has been processed by client return! This means the IPN URL did not work.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:45:56: Payment accepted for cart #27. New order state is 2.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:45:56: Create order for cart #27.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:45:56: Call PaymentModule::validateOrder() PrestaShop function to create order for cart #27.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:46:04: PaymentModule::validateOrder() PrestaShop function called successfully for cart #27.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:46:04: Order #10 created successfully for cart #27.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:46:04: Save payment information for cart #27.
+*INFO* 	v1.7.5.2	2020/11/30 - 15:46:04: Payment information with ID(s) 15 saved successfully for cart #27.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:00:57: Form data generation for cart #28 with standard submodule.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:00:57: Data to be sent to payment gateway: Array
+(
+    [signature] => se126NI4SmkRFRPAvNpV2lOlz2UdBSXC+y4UlZjXSGA=
+    [vads_action_mode] => IFRAME
+    [vads_amount] => 6960
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => PrestaShop_1.5-1.7_1.13.7/1.7.5.2/7.4.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 121 rue boulverse
+    [vads_cust_cell_phone] => 
+    [vads_cust_city] => 6666
+    [vads_cust_country] => FR
+    [vads_cust_email] => djellouli.massi@gmail.com
+    [vads_cust_first_name] => MASSI
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => DJELLOULI
+    [vads_cust_phone] => 
+    [vads_cust_zip] => 66666
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 28
+    [vads_order_info] => module_id=standard
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => CB;E-CARTEBLEUE;MAESTRO;MASTERCARD;VISA;VISA_ELECTRON
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_error_timeout] => 0
+    [vads_redirect_success_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_success_timeout] => 0
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => 6666
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => MASSI
+    [vads_ship_to_last_name] => DJELLOULI
+    [vads_ship_to_phone_num] => 
+    [vads_ship_to_street] => 121 rue boulverse
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 66666
+    [vads_shipping_amount] => 0
+    [vads_shop_name] => 
+    [vads_shop_url] => 
+    [vads_site_id] => 53820565
+    [vads_tax_amount] => 1160
+    [vads_theme_config] => 3DS_LOGOS=false;
+    [vads_totalamount_vat] => 1160
+    [vads_trans_date] => 20201130150057
+    [vads_trans_id] => 576572
+    [vads_url_return] => http://localhost/VAP-final/module/lyra/submit?content_only=1
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_product_label0] => Affiche encadrée The adventure begins
+    [vads_product_amount0] => 2900
+    [vads_product_qty0] => 2
+    [vads_product_ref0] => 4
+    [vads_product_type0] => FOOD_AND_GROCERY
+    [vads_product_vat0] => 20.0000
+)
+
+*INFO* 	v1.7.5.2	2020/11/30 - 16:01:24: User return to shop process starts for cart #28.
+*WARNING* 	v1.7.5.2	2020/11/30 - 16:01:24: Payment for cart #28 has been processed by client return! This means the IPN URL did not work.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:01:24: Payment accepted for cart #28. New order state is 2.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:01:24: Create order for cart #28.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:01:24: Call PaymentModule::validateOrder() PrestaShop function to create order for cart #28.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:01:32: PaymentModule::validateOrder() PrestaShop function called successfully for cart #28.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:01:32: Order #11 created successfully for cart #28.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:01:32: Save payment information for cart #28.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:01:33: Payment information with ID(s) 17 saved successfully for cart #28.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:01:49: User return to shop process starts for cart #28.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:01:49: Order already registered for cart #28.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:01:49: The current state for order corresponding to cart #28 is (21).
+*WARNING* 	v1.7.5.2	2020/11/30 - 16:01:49: Error: inconsistent order state (21) and payment result (AUTHORISED), cart ID: #28.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:04:45: Form data generation for cart #29 with standard submodule.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:04:46: Data to be sent to payment gateway: Array
+(
+    [signature] => b7mrghBYb20dXIpFesW3Mj/dCam3iGZho4ClKhaj1Bc=
+    [vads_action_mode] => IFRAME
+    [vads_amount] => 3480
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => PrestaShop_1.5-1.7_1.13.7/1.7.5.2/7.4.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 121 rue boulverse
+    [vads_cust_cell_phone] => 
+    [vads_cust_city] => 6666
+    [vads_cust_country] => FR
+    [vads_cust_email] => djellouli.massi@gmail.com
+    [vads_cust_first_name] => MASSI
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => DJELLOULI
+    [vads_cust_phone] => 
+    [vads_cust_zip] => 66666
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 29
+    [vads_order_info] => module_id=standard
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => CB;E-CARTEBLEUE;MAESTRO;MASTERCARD;VISA;VISA_ELECTRON
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_error_timeout] => 0
+    [vads_redirect_success_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_success_timeout] => 0
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => 6666
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => MASSI
+    [vads_ship_to_last_name] => DJELLOULI
+    [vads_ship_to_phone_num] => 
+    [vads_ship_to_street] => 121 rue boulverse
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 66666
+    [vads_shipping_amount] => 0
+    [vads_shop_name] => 
+    [vads_shop_url] => 
+    [vads_site_id] => 53820565
+    [vads_tax_amount] => 580
+    [vads_theme_config] => 3DS_LOGOS=false;
+    [vads_totalamount_vat] => 580
+    [vads_trans_date] => 20201130150445
+    [vads_trans_id] => 578858
+    [vads_url_return] => http://localhost/VAP-final/module/lyra/submit?content_only=1
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_product_label0] => Affiche encadrée The best is yet to come
+    [vads_product_amount0] => 2900
+    [vads_product_qty0] => 1
+    [vads_product_ref0] => 3
+    [vads_product_type0] => FOOD_AND_GROCERY
+    [vads_product_vat0] => 20.0000
+)
+
+*INFO* 	v1.7.5.2	2020/11/30 - 16:05:07: User return to shop process starts for cart #29.
+*WARNING* 	v1.7.5.2	2020/11/30 - 16:05:07: Payment for cart #29 has been processed by client return! This means the IPN URL did not work.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:05:07: Payment accepted for cart #29. New order state is 2.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:05:07: Create order for cart #29.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:05:08: Call PaymentModule::validateOrder() PrestaShop function to create order for cart #29.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:05:16: PaymentModule::validateOrder() PrestaShop function called successfully for cart #29.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:05:16: Order #12 created successfully for cart #29.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:05:16: Save payment information for cart #29.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:05:16: Payment information with ID(s) 19 saved successfully for cart #29.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:42:43: Form data generation for cart #30 with standard submodule.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:42:43: Data to be sent to payment gateway: Array
+(
+    [signature] => +xr5tcy8JMAzlZCppZdE6Ifo5ZIQPFqWaHWEEx9XCrQ=
+    [vads_action_mode] => IFRAME
+    [vads_amount] => 4908
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => PrestaShop_1.5-1.7_1.13.7/1.7.5.2/7.4.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 121 rue boulverse
+    [vads_cust_cell_phone] => 
+    [vads_cust_city] => 6666
+    [vads_cust_country] => FR
+    [vads_cust_email] => djellouli.massi@gmail.com
+    [vads_cust_first_name] => MASSI
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => DJELLOULI
+    [vads_cust_phone] => 
+    [vads_cust_zip] => 66666
+    [vads_language] => fr
+    [vads_nb_products] => 2
+    [vads_order_id] => 30
+    [vads_order_info] => module_id=standard
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => CB;E-CARTEBLEUE;MAESTRO;MASTERCARD;VISA;VISA_ELECTRON
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_error_timeout] => 0
+    [vads_redirect_success_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_success_timeout] => 0
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => 6666
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => MASSI
+    [vads_ship_to_last_name] => DJELLOULI
+    [vads_ship_to_phone_num] => 
+    [vads_ship_to_street] => 121 rue boulverse
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 66666
+    [vads_shipping_amount] => 0
+    [vads_shop_name] => 
+    [vads_shop_url] => 
+    [vads_site_id] => 53820565
+    [vads_tax_amount] => 818
+    [vads_theme_config] => 3DS_LOGOS=false;
+    [vads_totalamount_vat] => 818
+    [vads_trans_date] => 20201130154243
+    [vads_trans_id] => 601635
+    [vads_url_return] => http://localhost/VAP-final/module/lyra/submit?content_only=1
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_product_label0] => Mug Today is a good day
+    [vads_product_amount0] => 1190
+    [vads_product_qty0] => 1
+    [vads_product_ref0] => 8
+    [vads_product_type0] => FOOD_AND_GROCERY
+    [vads_product_vat0] => 20.0000
+    [vads_product_label1] => Affiche encadrée The best is yet to come
+    [vads_product_amount1] => 2900
+    [vads_product_qty1] => 1
+    [vads_product_ref1] => 3
+    [vads_product_type1] => FOOD_AND_GROCERY
+    [vads_product_vat1] => 20.0000
+)
+
+*INFO* 	v1.7.5.2	2020/11/30 - 16:42:55: User return to shop process starts for cart #30.
+*WARNING* 	v1.7.5.2	2020/11/30 - 16:42:55: Payment for cart #30 has been processed by client return! This means the IPN URL did not work.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:42:55: Payment accepted for cart #30. New order state is 2.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:42:55: Create order for cart #30.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:42:55: Call PaymentModule::validateOrder() PrestaShop function to create order for cart #30.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:43:04: PaymentModule::validateOrder() PrestaShop function called successfully for cart #30.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:43:04: Order #13 created successfully for cart #30.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:43:04: Save payment information for cart #30.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:43:04: Payment information with ID(s) 21 saved successfully for cart #30.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:44:20: Form data generation for cart #31 with standard submodule.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:44:20: Data to be sent to payment gateway: Array
+(
+    [signature] => A9lCVQUZTAwqyX5XSrXO/8cyXe7e9DXD33CSIKTLB9s=
+    [vads_action_mode] => IFRAME
+    [vads_amount] => 3480
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => PrestaShop_1.5-1.7_1.13.7/1.7.5.2/7.4.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 121 rue boulverse
+    [vads_cust_cell_phone] => 
+    [vads_cust_city] => 6666
+    [vads_cust_country] => FR
+    [vads_cust_email] => djellouli.massi@gmail.com
+    [vads_cust_first_name] => MASSI
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => DJELLOULI
+    [vads_cust_phone] => 
+    [vads_cust_zip] => 66666
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 31
+    [vads_order_info] => module_id=standard
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => CB;E-CARTEBLEUE;MAESTRO;MASTERCARD;VISA;VISA_ELECTRON
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_error_timeout] => 0
+    [vads_redirect_success_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_success_timeout] => 0
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => 6666
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => MASSI
+    [vads_ship_to_last_name] => DJELLOULI
+    [vads_ship_to_phone_num] => 
+    [vads_ship_to_street] => 121 rue boulverse
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 66666
+    [vads_shipping_amount] => 0
+    [vads_shop_name] => 
+    [vads_shop_url] => 
+    [vads_site_id] => 53820565
+    [vads_tax_amount] => 580
+    [vads_theme_config] => 3DS_LOGOS=false;
+    [vads_totalamount_vat] => 580
+    [vads_trans_date] => 20201130154420
+    [vads_trans_id] => 602601
+    [vads_url_return] => http://localhost/VAP-final/module/lyra/submit?content_only=1
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_product_label0] => Affiche encadrée The adventure begins
+    [vads_product_amount0] => 2900
+    [vads_product_qty0] => 1
+    [vads_product_ref0] => 4
+    [vads_product_type0] => FOOD_AND_GROCERY
+    [vads_product_vat0] => 20.0000
+)
+
+*INFO* 	v1.7.5.2	2020/11/30 - 16:44:30: User return to shop process starts for cart #31.
+*WARNING* 	v1.7.5.2	2020/11/30 - 16:44:30: Payment for cart #31 has been processed by client return! This means the IPN URL did not work.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:44:30: Payment accepted for cart #31. New order state is 2.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:44:30: Create order for cart #31.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:44:30: Call PaymentModule::validateOrder() PrestaShop function to create order for cart #31.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:44:38: PaymentModule::validateOrder() PrestaShop function called successfully for cart #31.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:44:38: Order #14 created successfully for cart #31.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:44:38: Save payment information for cart #31.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:44:38: Payment information with ID(s) 23 saved successfully for cart #31.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:47:10: Form data generation for cart #32 with standard submodule.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:47:10: Data to be sent to payment gateway: Array
+(
+    [signature] => ANrj+24QjHr7Z9sDr1OJpqB+tDnxV8o5EkIhuyGTZZ4=
+    [vads_action_mode] => IFRAME
+    [vads_amount] => 6893
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => PrestaShop_1.5-1.7_1.13.7/1.7.5.2/7.4.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 121 rue boulverse
+    [vads_cust_cell_phone] => 
+    [vads_cust_city] => 6666
+    [vads_cust_country] => FR
+    [vads_cust_email] => djellouli.massi@gmail.com
+    [vads_cust_first_name] => MASSI
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => DJELLOULI
+    [vads_cust_phone] => 
+    [vads_cust_zip] => 66666
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 32
+    [vads_order_info] => module_id=standard
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => CB;E-CARTEBLEUE;MAESTRO;MASTERCARD;VISA;VISA_ELECTRON
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_error_timeout] => 0
+    [vads_redirect_success_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_success_timeout] => 0
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => 6666
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => MASSI
+    [vads_ship_to_last_name] => DJELLOULI
+    [vads_ship_to_phone_num] => 
+    [vads_ship_to_street] => 121 rue boulverse
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 66666
+    [vads_shipping_amount] => 0
+    [vads_shop_name] => 
+    [vads_shop_url] => 
+    [vads_site_id] => 53820565
+    [vads_tax_amount] => 1149
+    [vads_theme_config] => 3DS_LOGOS=false;
+    [vads_totalamount_vat] => 1149
+    [vads_trans_date] => 20201130154710
+    [vads_trans_id] => 604302
+    [vads_url_return] => http://localhost/VAP-final/module/lyra/submit?content_only=1
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_product_label0] => Pull imprimé colibri
+    [vads_product_amount0] => 2872
+    [vads_product_qty0] => 2
+    [vads_product_ref0] => 2
+    [vads_product_type0] => FOOD_AND_GROCERY
+    [vads_product_vat0] => 20.0000
+)
+
+*INFO* 	v1.7.5.2	2020/11/30 - 16:47:22: User return to shop process starts for cart #32.
+*WARNING* 	v1.7.5.2	2020/11/30 - 16:47:22: Payment for cart #32 has been processed by client return! This means the IPN URL did not work.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:47:22: Payment accepted for cart #32. New order state is 2.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:47:22: Create order for cart #32.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:47:22: Call PaymentModule::validateOrder() PrestaShop function to create order for cart #32.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:53:41: Form data generation for cart #33 with standard submodule.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:53:42: Data to be sent to payment gateway: Array
+(
+    [signature] => OoonFYrWqZePc/GPkf1kQiGj6qVbAJ4Q9kg27Vieb8o=
+    [vads_action_mode] => IFRAME
+    [vads_amount] => 3480
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => PrestaShop_1.5-1.7_1.13.7/1.7.5.2/7.4.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 121 rue boulverse
+    [vads_cust_cell_phone] => 
+    [vads_cust_city] => 6666
+    [vads_cust_country] => FR
+    [vads_cust_email] => djellouli.massi@gmail.com
+    [vads_cust_first_name] => MASSI
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => DJELLOULI
+    [vads_cust_phone] => 
+    [vads_cust_zip] => 66666
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 33
+    [vads_order_info] => module_id=standard
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => CB;E-CARTEBLEUE;MAESTRO;MASTERCARD;VISA;VISA_ELECTRON
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_error_timeout] => 0
+    [vads_redirect_success_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_success_timeout] => 0
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => 6666
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => MASSI
+    [vads_ship_to_last_name] => DJELLOULI
+    [vads_ship_to_phone_num] => 
+    [vads_ship_to_street] => 121 rue boulverse
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 66666
+    [vads_shipping_amount] => 0
+    [vads_shop_name] => 
+    [vads_shop_url] => 
+    [vads_site_id] => 53820565
+    [vads_tax_amount] => 580
+    [vads_theme_config] => 3DS_LOGOS=false;
+    [vads_totalamount_vat] => 580
+    [vads_trans_date] => 20201130155341
+    [vads_trans_id] => 608217
+    [vads_url_return] => http://localhost/VAP-final/module/lyra/submit?content_only=1
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_product_label0] => Affiche encadrée The adventure begins
+    [vads_product_amount0] => 2900
+    [vads_product_qty0] => 1
+    [vads_product_ref0] => 4
+    [vads_product_type0] => FOOD_AND_GROCERY
+    [vads_product_vat0] => 20.0000
+)
+
+*INFO* 	v1.7.5.2	2020/11/30 - 16:54:01: User return to shop process starts for cart #33.
+*WARNING* 	v1.7.5.2	2020/11/30 - 16:54:01: Payment for cart #33 has been processed by client return! This means the IPN URL did not work.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:54:01: Payment accepted for cart #33. New order state is 2.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:54:01: Create order for cart #33.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:54:01: Call PaymentModule::validateOrder() PrestaShop function to create order for cart #33.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:54:07: PaymentModule::validateOrder() PrestaShop function called successfully for cart #33.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:54:07: Order #16 created successfully for cart #33.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:54:07: Save payment information for cart #33.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:54:07: Payment information with ID(s) 26 saved successfully for cart #33.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:55:36: Form data generation for cart #34 with standard submodule.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:55:36: Data to be sent to payment gateway: Array
+(
+    [signature] => vJ4iDPjFXiAC+28jGEJfuzuxJtSy+V6VgOCfrU0FPB0=
+    [vads_action_mode] => IFRAME
+    [vads_amount] => 1428
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => PrestaShop_1.5-1.7_1.13.7/1.7.5.2/7.4.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 121 rue boulverse
+    [vads_cust_cell_phone] => 
+    [vads_cust_city] => 6666
+    [vads_cust_country] => FR
+    [vads_cust_email] => djellouli.massi@gmail.com
+    [vads_cust_first_name] => MASSI
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => DJELLOULI
+    [vads_cust_phone] => 
+    [vads_cust_zip] => 66666
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 34
+    [vads_order_info] => module_id=standard
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => CB;E-CARTEBLEUE;MAESTRO;MASTERCARD;VISA;VISA_ELECTRON
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_error_timeout] => 0
+    [vads_redirect_success_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_success_timeout] => 0
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => 6666
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => MASSI
+    [vads_ship_to_last_name] => DJELLOULI
+    [vads_ship_to_phone_num] => 
+    [vads_ship_to_street] => 121 rue boulverse
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 66666
+    [vads_shipping_amount] => 0
+    [vads_shop_name] => 
+    [vads_shop_url] => 
+    [vads_site_id] => 53820565
+    [vads_tax_amount] => 238
+    [vads_theme_config] => 3DS_LOGOS=false;
+    [vads_totalamount_vat] => 238
+    [vads_trans_date] => 20201130155536
+    [vads_trans_id] => 609361
+    [vads_url_return] => http://localhost/VAP-final/module/lyra/submit?content_only=1
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_product_label0] => Mug Today is a good day
+    [vads_product_amount0] => 1190
+    [vads_product_qty0] => 1
+    [vads_product_ref0] => 8
+    [vads_product_type0] => FOOD_AND_GROCERY
+    [vads_product_vat0] => 20.0000
+)
+
+*INFO* 	v1.7.5.2	2020/11/30 - 16:55:52: User return to shop process starts for cart #34.
+*WARNING* 	v1.7.5.2	2020/11/30 - 16:55:52: Payment for cart #34 has been processed by client return! This means the IPN URL did not work.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:55:52: Payment accepted for cart #34. New order state is 2.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:55:52: Create order for cart #34.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:55:52: Call PaymentModule::validateOrder() PrestaShop function to create order for cart #34.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:55:58: PaymentModule::validateOrder() PrestaShop function called successfully for cart #34.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:55:58: Order #17 created successfully for cart #34.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:55:58: Save payment information for cart #34.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:55:58: Payment information with ID(s) 28 saved successfully for cart #34.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:57:42: Form data generation for cart #35 with standard submodule.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:57:42: Data to be sent to payment gateway: Array
+(
+    [signature] => mHTosJtWdNmF0xVcdZJ/z3MBg7e6g8RpceKuTqUuM6w=
+    [vads_action_mode] => IFRAME
+    [vads_amount] => 3480
+    [vads_available_languages] => 
+    [vads_capture_delay] => 
+    [vads_contrib] => PrestaShop_1.5-1.7_1.13.7/1.7.5.2/7.4.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 121 rue boulverse
+    [vads_cust_cell_phone] => 
+    [vads_cust_city] => 6666
+    [vads_cust_country] => FR
+    [vads_cust_email] => djellouli.massi@gmail.com
+    [vads_cust_first_name] => MASSI
+    [vads_cust_id] => 3
+    [vads_cust_last_name] => DJELLOULI
+    [vads_cust_phone] => 
+    [vads_cust_zip] => 66666
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 35
+    [vads_order_info] => module_id=standard
+    [vads_page_action] => PAYMENT
+    [vads_payment_cards] => CB;E-CARTEBLEUE;MAESTRO;MASTERCARD;VISA;VISA_ELECTRON
+    [vads_payment_config] => SINGLE
+    [vads_redirect_error_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_error_timeout] => 0
+    [vads_redirect_success_message] => Redirection vers la boutique dans quelques instants...
+    [vads_redirect_success_timeout] => 0
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => 6666
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => MASSI
+    [vads_ship_to_last_name] => DJELLOULI
+    [vads_ship_to_phone_num] => 
+    [vads_ship_to_street] => 121 rue boulverse
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 66666
+    [vads_shipping_amount] => 0
+    [vads_shop_name] => 
+    [vads_shop_url] => 
+    [vads_site_id] => 53820565
+    [vads_tax_amount] => 580
+    [vads_theme_config] => 3DS_LOGOS=false;
+    [vads_totalamount_vat] => 580
+    [vads_trans_date] => 20201130155742
+    [vads_trans_id] => 610620
+    [vads_url_return] => http://localhost/VAP-final/module/lyra/submit?content_only=1
+    [vads_validation_mode] => 0
+    [vads_version] => V2
+    [vads_product_label0] => Affiche encadrée The best is yet to come
+    [vads_product_amount0] => 2900
+    [vads_product_qty0] => 1
+    [vads_product_ref0] => 3
+    [vads_product_type0] => FOOD_AND_GROCERY
+    [vads_product_vat0] => 20.0000
+)
+
+*INFO* 	v1.7.5.2	2020/11/30 - 16:58:00: User return to shop process starts for cart #35.
+*WARNING* 	v1.7.5.2	2020/11/30 - 16:58:00: Payment for cart #35 has been processed by client return! This means the IPN URL did not work.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:58:00: Payment accepted for cart #35. New order state is 2.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:58:00: Create order for cart #35.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:58:00: Call PaymentModule::validateOrder() PrestaShop function to create order for cart #35.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:58:06: PaymentModule::validateOrder() PrestaShop function called successfully for cart #35.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:58:06: Order #18 created successfully for cart #35.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:58:06: Save payment information for cart #35.
+*INFO* 	v1.7.5.2	2020/11/30 - 16:58:06: Payment information with ID(s) 30 saved successfully for cart #35.

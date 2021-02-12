@@ -1,0 +1,4 @@
+*ERROR* 	v1.7.5.2	2020/12/14 - 09:26:01: Cannot select any valid SQL engine. at line 302 in file classes/db/Db.php
+*ERROR* 	v1.7.5.2	2020/12/14 - 15:21:25: Champ 'id_order_state' inconnu dans field list<br /><br /><pre>
+            SELECT `id_order`,`reference`,`current_state`,`id_order_state`, `date_upd`
+                     FROM `ps_orders`</pre> at line 769 in file classes/db/Db.php

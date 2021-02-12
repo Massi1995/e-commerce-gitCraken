@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>simpleimportproduct</name>
+    <displayName><![CDATA[Catalogue de Produits (CSV, Excel) d&rsquo;importation ]]></displayName>
+    <version><![CDATA[6.3.9]]></version>
+    <description><![CDATA[Catalogue de produits (CSV, Excel) Le module d&#039;importation est un module pratique sp&eacute;cialement con&ccedil;u pour effectuer des op&eacute;rations d&#039;importation avec les produits PrestaShop.]]></description>
+    <author><![CDATA[MyPrestaModules]]></author>
+    <tab><![CDATA[quick_bulk_update]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

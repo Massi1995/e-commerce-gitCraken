@@ -1,0 +1,6 @@
+*ERROR* 	v1.7.5.2	2020/12/18 - 15:22:10: La table 'bdd-vap.psorders' n'existe pas<br /><br /><pre>SELECT `id_order`,`reference`,`current_state`, `date_upd`
+                     FROM `psorders`</pre> at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.5.2	2020/12/18 - 15:27:49: Db->executeS() must be used only with select, show, explain or describe queries at line 607 in file classes/db/Db.php
+*ERROR* 	v1.7.5.2	2020/12/18 - 15:28:34: La table 'bdd-vap.order_history' n'existe pas<br /><br /><pre>UPDATE `order_history`
+                        SET `id_order_state` = 24
+                        WHERE id_order=24</pre> at line 769 in file classes/db/Db.php

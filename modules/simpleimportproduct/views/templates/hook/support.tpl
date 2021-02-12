@@ -1,0 +1,2 @@
+<input type="hidden" id="location_href" value="{$location_href|escape:'htmlall':'UTF-8'}">
+<iframe style="height: 1150px; width: 100%; border: none" src="//addons.prestashop.com/contact-community.php?id_product=19091&content_only=1&licence_number=&lang=en#contact-form"></iframe>

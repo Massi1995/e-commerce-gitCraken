@@ -1,0 +1,311 @@
+/*BLOCK SOCIAL FOOTER debut */
+#footer .block-social {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+}
+
+#footer .block-social li {
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+}
+#footer .block-social .rss {
+    background-image: url("/themes/VAP-CMP/assets/linked40.png");
+}
+#footer .block-social .facebook {
+    background-image: url("/themes/VAP-CMP/assets/facebook40.png");
+}
+#footer .block-social .youtube{
+    background-image: url("/themes/VAP-CMP/assets/youtube40.png");
+}
+#footer .block-social .pinterest {
+    background-image: url("/themes/VAP-CMP/assets/pinterest40.png");
+}
+#footer .block-social .instagram{
+    background-image: url("/themes/VAP-CMP/assets/instagram40.png");
+}
+#footer .block-social .linkedin  {
+    background-image: url("/themes/VAP-CMP/assets/cmp40.png");
+}
+/*FIN */
+#tx_indicatif {
+    max-width: max-content;
+    margin: auto;
+    color: red;
+}
+#txt_foot {
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.2rem;
+    color: #232323;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: larger;
+}
+.ps-alert-success {
+    padding: .25rem 2.75rem;
+}
+.page-customer-account #content {
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+    background: #fff;
+    padding: 1rem;
+    font-size: .875rem;
+    color: #7a7a7a;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+}
+.page-authentication #content {
+    padding: 1rem;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+}
+#main .page-footer {
+    font-size: 1.3rem;
+    width: max-content;
+    position: relative;
+    margin-left: auto;
+    margin: auto;}
+
+.rss {
+    background-image: url("/themes/VAP-CMP/assets/linked.png");
+    }
+.facebook {
+    background-image: url("/themes/VAP-CMP/assets/facebook.png");
+}
+.youtube {
+    background-image: url("/themes/VAP-CMP/assets/youtube.png");
+    }
+.pinterest {
+    background-image: url("/themes/VAP-CMP/assets/pinterest.png");
+}
+.instagram {
+    background-image: url("/themes/VAP-CMP/assets/instagram.png");
+}
+.linkedin {
+    background-image: url("/themes/VAP-CMP/assets/cmp.png");
+}
+.renitialisation-mdp {
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 7%;
+}
+.forgot-password {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#retour {
+    width: max-content;
+    margin: auto;
+}
+.top-menu{
+    font-size: 13px;
+}
+.logo-Vap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:5% ;
+}
+.login-form {
+    vertical-align: middle;
+}
+.blockreassurance_product {
+
+    display: none;
+}
+.col-md-7 {
+    float: left;
+    width: 100%;
+}
+#header .header-top {
+    padding-bottom: 1px;
+}
+/* footer */
+#footer .footer-container{box-shadow:none;border-top: 5px solid #4bcde2;margin-top: 3rem;}
+#footer .footer-container{background-color:#f0f0f0;}
+
+.search-widget form input[type=text]{ padding: 8px;min-width: 320px;}
+.search-widget form button[type=submit]{bottom:6px;margin-right:5px}
+.block-social {
+    margin-top: 7px;
+    margin-right: auto;
+    }
+.block-social li {
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+}
+@media(min-width:1200px){
+    #blockcart-modal .cart-content {
+        padding-left: 2.5rem;
+        position: absolute;
+        margin: auto;
+        width: max-content;
+        left: 30em;
+        bottom: 1em;
+    }
+    .products-sort-order .select-title {
+        width: 95%;
+    }
+    .block_newsletter {
+        margin-left: auto;
+        margin-right: auto;
+        position: sticky;
+    }
+.menu {
+    width: auto;
+    position: relative;
+    top: -3em;
+    left: 29em;
+}
+.block-social {
+    width: auto;
+    position: relative;
+    right: 17px;
+    }
+.container {
+    width: 1500px;
+    max-width: 100%;
+}
+#header .header-nav {
+    border-bottom: 2px solid #f1f1f1;
+    max-height: 50px;
+    margin-bottom: 10px;
+}
+.block-category {
+    width: 1088px;
+    min-height: auto;
+}
+#wrapper .banner img {
+     width: 100%;
+}
+    #products {
+        width: 1108px;
+    }
+#products .products, .featured-products .products, .product-accessories .products, .product-miniature .products {
+    justify-content: center;
+}
+#product #content {
+    position: relative;
+    width: 32em;
+    max-width: 900px;
+    margin: 0 auto;
+}
+/*postion du bloc user*/
+#_desktop_user_info{
+    position: static;
+    left: 23em;
+}
+#header .header-nav #_desktop_contact_link {
+    position: relative;
+    right: 25em;
+    display: inline-block;
+}
+    #header .logo {
+        max-width: 100%;
+        position: relative;
+        bottom: 15px;
+    }
+#header .header-top .menu {
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+/* formulaire de mot de pass oublier*/
+.forgotten-password {
+    margin: auto;
+    }
+.col-md-2 {
+    top: 15.5px;
+}
+/*Contenu de page  */
+
+    .container-fluid {
+        width: unset;
+    }
+}
+
+@media(min-width:990px){ 
+	.carousel{
+		box-shadow: none;
+	}
+	.carousel, .carousel-inner
+	{
+		margin: auto;
+	}
+}
+
+@media(max-width:1023px) {
+    .carousel{box-shadow: none;}
+    #index .carousel .carousel-item img {width:100%;}
+    #index #carousel .caption-description{display:none;}
+    #index #carousel h2{margin-top: -200px;}
+}
+
+@media(min-width:1024px) and (max-width:1119px){
+    .carousel{box-shadow: none;}
+    #index .carousel .carousel-item img {width: 124%;}
+} 
+ 
+ /* slide - carousel */
+@media(min-width:1200px){
+.carousel, .carousel-inner
+{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+    #products .products-section-title, .featured-products .products-section-title, .product-accessories .products-section-title, .product-miniature .products-section-title {
+        margin-bottom: 25px;
+        margin-top: 13px;
+    }
+}
+#products article.product-miniature div.thumbnail-container, article.product-miniature div.thumbnail-container {height: 422px;}
+#products article.product-miniature div.product-description, article.product-miniature div.product-description{height: 172px;text-align: center;}
+#products article.product-miniature div.product-description input.input-group.form-control, article.product-miniature div.product-description input.input-group.form-control{width: 30%;margin-left: auto;margin-right: auto;margin-bottom: 12px;margin-top: 10px;}
+#products .thumbnail-container .product-thumbnail img, .featured-products .thumbnail-container .product-thumbnail img, .product-accessories .thumbnail-container .product-thumbnail img, .product-miniature .thumbnail-container .product-thumbnail img {bottom: inherit;}
+#products .product-price-and-shipping, .featured-products .product-price-and-shipping, .product-accessories .product-price-and-shipping, .product-miniature .product-price-and-shipping {margin-top: 5px}
+/*REPONSIVITE TELEPHONE */
+/*@media(min-width:360px) and (max-width:500px){
+    .page-authentication #content {
+        padding: 1rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7%;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+        width: max-content;
+        margin-left: 4.5rem;
+    }
+    .input-group {
+        position: relative;
+        display: -webkit-box;
+        -webkit-box-align: stretch;
+        width: 100%;
+    }
+    .input-group .input-group-btn > .btn {
+        border: 0;
+        box-shadow: none;
+        color: #fff;
+        font-size: .6875rem;
+        font-weight: 400;
+        margin-left: 16.7rem;
+        padding: .625rem 1rem;
+        text-transform: uppercase;
+    }
+
+}*/

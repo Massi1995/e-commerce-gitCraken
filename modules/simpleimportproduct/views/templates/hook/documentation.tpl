@@ -1,0 +1,2 @@
+<input type="hidden" id="location_href" value="{$location_href|escape:'htmlall':'UTF-8'}">
+<iframe style="height: 800px; width: 100%; border: none" src="//myprestamodules.com/faqs/content_only/product-catalog-csv-excel-import.html"></iframe>
